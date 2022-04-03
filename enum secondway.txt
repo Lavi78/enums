@@ -1,0 +1,21 @@
+using System;
+namespace enumm
+{
+    class program
+    {
+        enum week
+        {
+            sunday,//0
+            monady,//1
+            tuesday,//2
+            wednesday,//3
+
+        }
+        static void Main(string[] args)
+        {
+            int var =(int) week.monady;
+            Console.WriteLine(var);
+        }
+
+    }
+}
